@@ -7,7 +7,7 @@ used_data <- electric_consumption[electric_consumption$Date >= "2007-02-01" & el
 names(used_data)
 str(used_data)
 <<<<<<< HEAD
-png(filename = "/Users/ianeheath/Desktop/Exploratory_Analysis_Assignment_1/plot2.png")
+png(filename = "/Users/ianeheath/Desktop/Exploratory_data_Assignment_1/plot2.png")
 plot(used_data$DateTime, used_data$Global_active_power, type = "n", xlab = "", ylab = "Global Active Power (kilowatts)")
 lines(used_data$DateTime, used_data$Global_active_power)
 dev.off()
